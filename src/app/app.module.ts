@@ -15,7 +15,7 @@ import {ConfigService} from './app.service';
     HttpClientModule,
     AppRoutingModule,
     AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyBQw0qwsy7G_4A9VnaqUUfD0_Z1whYAIgE',
+      apiKey: 'enter gogle map api key',
       libraries: ['places']
     })
   ],
