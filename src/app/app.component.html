@@ -1,0 +1,18 @@
+<div>
+  Delivery app
+</div>
+
+<div class="form-group">
+  <label>Enter address</label>
+  <input type="text" class="form-control" (keydown.enter)="$event.preventDefault()" placeholder="Search Nearest Location" autocorrect="off" autocapitalize="off" spellcheck="off" type="text" #search>
+</div>
+<br>
+<br>
+<br>
+<div>Outlet information</div>
+<div>{{outletInformation}}</div>
+
+
+<h5>Address: {{address}}</h5>
+<div>Latitude: {{latitude}}</div>
+<div>Longitude: {{longitude}}</div>
